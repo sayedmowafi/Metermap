@@ -6,11 +6,19 @@ A React Native mobile application for utility meter reading route optimization a
 
 - **Excel Import**: Upload Excel files containing meter locations with coordinates (UTM format supported)
 - **Route Optimization**: Automatically calculates the most efficient route through all meter locations using clustering and nearest-neighbor algorithms
-- **Real-time Navigation**: Turn-by-turn navigation with live location tracking
+- **Real-time Location Tracking**: Live GPS tracking with route visualization on satellite maps
 - **Satellite Map View**: High-detail satellite imagery for easy location identification
 - **Progress Tracking**: Mark meters as completed and track overall progress
 - **Missing Coordinates Handling**: Manually add coordinates for meters missing location data via direct input or MyLand URL
 - **Grouped Locations**: Multiple meters at the same address are grouped for efficient visits
+- **Data Persistence**: Firebase Firestore integration for syncing progress across sessions and devices
+
+## Future Improvements
+
+- Turn-by-turn voice navigation for hands-free field work
+- Firebase-based meter location correction for misclassified coordinates
+- Offline mode with local caching for areas with poor connectivity
+- Photo capture for meter readings with automatic OCR
 
 ## Tech Stack
 
@@ -18,7 +26,7 @@ A React Native mobile application for utility meter reading route optimization a
 - **Navigation**: React Navigation (Bottom Tabs)
 - **Maps**: React Native Maps with satellite view
 - **Routing**: OpenRouteService API for driving directions
-- **Coordinate Conversion**: Proj4 for UTM to WGS84 conversion
+- **Coordinate Conversion**: Proj4 for UTM to lat/long conversion
 - **File Handling**: Expo Document Picker + XLSX parser
 - **Backend**: Firebase Firestore for data persistence
 - **Location**: Expo Location with background tracking support
@@ -35,7 +43,7 @@ A React Native mobile application for utility meter reading route optimization a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/K60Exotix/Metermap.git
+git clone https://github.com/sayedmowafi/Metermap.git
 cd Metermap
 ```
 
@@ -126,6 +134,10 @@ Metermap/
 ## License
 
 This project is licensed under the MIT License.
+
+## Author
+
+**Sayed Mowafi** - [Portfolio](https://sayedmowafi.dev) | [GitHub](https://github.com/sayedmowafi)
 
 ## Acknowledgments
 
