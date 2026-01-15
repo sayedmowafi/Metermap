@@ -2,6 +2,14 @@
 
 A React Native mobile application for utility meter reading route optimization and navigation. Built with Expo, this app helps field technicians efficiently navigate to meter locations by uploading Excel spreadsheets containing meter data and generating optimized routes.
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/map-view.jpeg" width="250" alt="Map View" />
+  <img src="assets/screenshots/meter-reading-pending.jpeg" width="250" alt="Meter Reading - Pending" />
+  <img src="assets/screenshots/meter-reading-completed.jpeg" width="250" alt="Meter Reading - Completed" />
+</p>
+
 ## Features
 
 - **Excel Import**: Upload Excel files containing meter locations with coordinates (UTM format supported)
@@ -81,6 +89,8 @@ The app expects Excel files with the following columns:
 - `رقم اللاصق` - Meter sticker number
 - `عنوان القسيمه` - Plot address
 - `الخدمة` - Service type (E for Electricity, W for Water, etc.)
+
+A sample Excel file is included in the repository: [`samples/sample-data.xls`](samples/sample-data.xls)
 
 ## API Keys Required
 
