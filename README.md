@@ -2,14 +2,6 @@
 
 A React Native mobile application for utility meter reading route optimization and navigation. Built with Expo, this app helps field technicians efficiently navigate to meter locations by uploading Excel spreadsheets containing meter data and generating optimized routes.
 
-## Screenshots
-
-<p align="center">
-  <img src="assets/screenshots/map-view.jpeg" width="250" alt="Map View" />
-  <img src="assets/screenshots/meter-reading-pending.jpeg" width="250" alt="Meter Reading - Pending" />
-  <img src="assets/screenshots/meter-reading-completed.jpeg" width="250" alt="Meter Reading - Completed" />
-</p>
-
 ## Demo
 
 <p align="center">
@@ -17,6 +9,14 @@ A React Native mobile application for utility meter reading route optimization a
 </p>
 
 *The demo shows the complete meter reading workflow: navigating to a meter location, viewing meter details, and marking it as completed.*
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/map-view.jpeg" width="250" alt="Map View" />
+  <img src="assets/screenshots/meter-reading-pending.jpeg" width="250" alt="Meter Reading - Pending" />
+  <img src="assets/screenshots/meter-reading-completed.jpeg" width="250" alt="Meter Reading - Completed" />
+</p>
 
 ## Features
 
