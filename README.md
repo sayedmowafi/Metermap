@@ -10,6 +10,14 @@ A React Native mobile application for utility meter reading route optimization a
   <img src="assets/screenshots/meter-reading-completed.jpeg" width="250" alt="Meter Reading - Completed" />
 </p>
 
+## Demo
+
+<p align="center">
+  <img src="demo-metermap.gif" width="300" alt="Meter Reading Demo" />
+</p>
+
+*The demo shows the complete meter reading workflow: navigating to a meter location, viewing meter details, and marking it as completed.*
+
 ## Features
 
 - **Excel Import**: Upload Excel files containing meter locations with coordinates (UTM format supported)
