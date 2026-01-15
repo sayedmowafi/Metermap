@@ -61,14 +61,15 @@ npm install
 
 3. Create a `.env` file in the root directory with your API keys (see `.env.example` for reference):
 ```env
-FIREBASE_API_KEY=your_firebase_api_key
-FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-FIREBASE_PROJECT_ID=your_project_id
-FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
-FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-FIREBASE_APP_ID=your_app_id
-MAPBOX_ACCESS_TOKEN=your_mapbox_access_token
 OPENROUTE_API_KEY=your_openroute_api_key
+
+# Optional - Firebase integration planned for future release
+# FIREBASE_API_KEY=your_firebase_api_key
+# FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+# FIREBASE_PROJECT_ID=your_project_id
+# FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
+# FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+# FIREBASE_APP_ID=your_app_id
 ```
 
 4. Start the development server:
@@ -94,9 +95,10 @@ A sample Excel file is included in the repository: [`samples/sample-data.xlsx`](
 
 ## API Keys Required
 
-1. **Firebase**: Create a project at [Firebase Console](https://console.firebase.google.com/)
-2. **Mapbox**: Get a token at [Mapbox](https://www.mapbox.com/)
-3. **OpenRouteService**: Get a free API key at [OpenRouteService](https://openrouteservice.org/)
+1. **OpenRouteService**: Get a free API key at [OpenRouteService](https://openrouteservice.org/) - Required for route optimization
+
+**Coming Soon (not required yet):**
+- **Firebase**: Will be used for data persistence and meter location corrections in a future update
 
 ## Building for Production
 
@@ -124,7 +126,7 @@ Metermap/
 │   ├── context/
 │   │   └── MarkerContext.js  # Global marker state
 │   ├── services/
-│   │   └── firebaseService.js # Firebase operations
+│   │   └── firebaseService.js # Firebase operations (future)
 │   └── utils/
 │       └── coordinateConverter.js # UTM to lat/long conversion
 ├── assets/                   # Images and fonts
