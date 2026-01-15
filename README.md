@@ -11,11 +11,11 @@ A React Native mobile application for utility meter reading route optimization a
 - **Progress Tracking**: Mark meters as completed and track overall progress
 - **Missing Coordinates Handling**: Manually add coordinates for meters missing location data via direct input or MyLand URL
 - **Grouped Locations**: Multiple meters at the same address are grouped for efficient visits
-- **Data Persistence**: Firebase Firestore integration for syncing progress across sessions and devices
 
 ## Future Improvements
 
 - Turn-by-turn voice navigation for hands-free field work
+- Firebase Firestore integration for data persistence across sessions and devices
 - Firebase-based meter location correction for misclassified coordinates
 - Offline mode with local caching for areas with poor connectivity
 - Photo capture for meter readings with automatic OCR
@@ -28,7 +28,6 @@ A React Native mobile application for utility meter reading route optimization a
 - **Routing**: OpenRouteService API for driving directions
 - **Coordinate Conversion**: Proj4 for UTM to lat/long conversion
 - **File Handling**: Expo Document Picker + XLSX parser
-- **Backend**: Firebase Firestore for data persistence
 - **Location**: Expo Location with background tracking support
 
 ## Prerequisites
