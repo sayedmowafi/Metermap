@@ -90,7 +90,7 @@ The app expects Excel files with the following columns:
 - `عنوان القسيمه` - Plot address
 - `الخدمة` - Service type (E for Electricity, W for Water, etc.)
 
-A sample Excel file is included in the repository: [`samples/sample-data.xls`](samples/sample-data.xls)
+A sample Excel file is included in the repository: [`samples/sample-data.xlsx`](samples/sample-data.xlsx)
 
 ## API Keys Required
 
