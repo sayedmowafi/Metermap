@@ -61,6 +61,7 @@ npm install
 
 3. Create a `.env` file in the root directory with your API keys (see `.env.example` for reference):
 ```env
+MAPBOX_ACCESS_TOKEN=your_mapbox_access_token
 OPENROUTE_API_KEY=your_openroute_api_key
 
 # Optional - Firebase integration planned for future release
@@ -95,7 +96,8 @@ A sample Excel file is included in the repository: [`samples/sample-data.xlsx`](
 
 ## API Keys Required
 
-1. **OpenRouteService**: Get a free API key at [OpenRouteService](https://openrouteservice.org/) - Required for route optimization
+1. **Mapbox**: Get an access token at [Mapbox](https://www.mapbox.com/) - Required for map rendering
+2. **OpenRouteService**: Get a free API key at [OpenRouteService](https://openrouteservice.org/) - Required for route optimization
 
 **Coming Soon (not required yet):**
 - **Firebase**: Will be used for data persistence and meter location corrections in a future update
